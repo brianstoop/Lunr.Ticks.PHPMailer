@@ -1,0 +1,22 @@
+{
+  "name": "lunr/ticks.phpmailer",
+  "description": "Lunr.Ticks.PHPMailer is a logger library for the phpmailer library",
+  "keywords": [ "phpunit", "unit tests", "mocking" ],
+  "homepage": "https://github.com/lunr-php/lunr.ticks.phpmailer",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "ext-uopz": ">=7.1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=10.5 <11.0",
+    "ext-xdebug": ">=3.0"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {"Lunr\\Ticks\\PHPMailer\\": "src/Lunr/Ticks/PHPMailer/"}
+  }
+}
