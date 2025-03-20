@@ -7,4 +7,3 @@ parameters:
     excludePaths:
         - ../src/*/Tests/*
     ignoreErrors:
-        - identifier: trait.unused
