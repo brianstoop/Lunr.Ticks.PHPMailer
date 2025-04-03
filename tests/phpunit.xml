@@ -15,6 +15,9 @@
          displayDetailsOnTestsThatTriggerWarnings="true"
          displayDetailsOnPhpunitDeprecations="true">
     <testsuites>
+        <testsuite name="PHPMailer">
+            <directory>../src/Lunr/Ticks/PHPMailer/Tests/</directory>
+        </testsuite>
     </testsuites>
     <coverage>
         <report>
@@ -26,5 +29,11 @@
         <junit outputFile="../build/logs/junit.xml"/>
     </logging>
     <source>
+        <include>
+            <directory>../src/Lunr/Ticks/PHPMailer/</directory>
+        </include>
+        <exclude>
+            <directory>../src/Lunr/Ticks/PHPMailer/Tests/</directory>
+        </exclude>
     </source>
 </phpunit>

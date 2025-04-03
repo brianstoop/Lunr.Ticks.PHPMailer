@@ -1,2 +1,28 @@
 {
+    "Lunr.Halo": {
+        "url": "https://github.com/lunr-php/lunr.halo.git",
+        "version": "0.11.0",
+        "revision": "master",
+        "psr4": {
+            "prefix": "Lunr\\Halo",
+            "search-path": "/src/Lunr/Halo/"
+        }
+    },
+    "Lunr.Ticks": {
+        "url": "https://github.com/lunr-php/lunr.ticks.git",
+        "version": "0.11.0",
+        "revision": "master",
+        "psr4": {
+            "prefix": "Lunr\\Ticks",
+            "search-path": "/src/Lunr/Ticks/"
+        }
+    },
+    "PHPMailer": {
+        "url": "https://github.com/PHPMailer/PHPMailer.git",
+        "version": "6.9.3",
+        "psr4": {
+            "prefix": "PHPMailer\\PHPMailer",
+            "search-path": "/src/"
+        }
+    }
 }
