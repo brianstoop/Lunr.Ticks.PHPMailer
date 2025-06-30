@@ -62,7 +62,7 @@ abstract class PHPMailerTestCase extends LunrBaseTestCase
         $this->logger = $this->getMockBuilder(EventLoggerInterface::class)->getMock();
 
         $this->controller = Mockery::mock(
-                         TracingControllerInterface::class,
+                                TracingControllerInterface::class,
                                 TracingInfoInterface::class,
                             );
 
